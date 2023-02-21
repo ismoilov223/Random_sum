@@ -82,12 +82,12 @@ console.log(var_ran);
 var togri = false;
 function one_sub(params) {
   if (1 == rendom_var && togri == false) {
-    document.getElementById("con-box-one").style.backgroundColor = "green";
+    document.getElementById("con-box-one").style.backgroundColor = "#00be49";
     document.getElementById("con-box-one").style.color = "white";
     togri = true;
     setTimeout(function () { location.reload(1); }, 1500);
   } else if(togri == false){
-    document.getElementById("con-box-one").style.backgroundColor = "red";
+    document.getElementById("con-box-one").style.backgroundColor = "#be2c00";
     document.getElementById("con-box-one").style.color = "white";
     togri = true;
     setTimeout(function () { location.reload(1); }, 1500);
@@ -95,12 +95,12 @@ function one_sub(params) {
 }
 function two_sub(params) {
   if (2 == rendom_var && togri == false) {
-    document.getElementById("con-box-two").style.backgroundColor = "green";
+    document.getElementById("con-box-two").style.backgroundColor = "#00be49";
     document.getElementById("con-box-two").style.color = "white";
     togri = true;
     setTimeout(function () { location.reload(1); }, 1500);
   } else if(togri == false) {
-    document.getElementById("con-box-two").style.backgroundColor = "red";
+    document.getElementById("con-box-two").style.backgroundColor = "#be2c00";
     document.getElementById("con-box-two").style.color = "white";
     togri = true;
     setTimeout(function () { location.reload(1); }, 1500);
@@ -108,12 +108,12 @@ function two_sub(params) {
 }
 function three_sub(params) {
   if (3 == rendom_var && togri == false) {
-    document.getElementById("con-box-three").style.backgroundColor = "green";
+    document.getElementById("con-box-three").style.backgroundColor = "#00be49";
     document.getElementById("con-box-three").style.color = "white";
     togri = true;
     setTimeout(function () { location.reload(1); }, 1500);
   } else if(togri == false){
-    document.getElementById("con-box-three").style.backgroundColor = "red";
+    document.getElementById("con-box-three").style.backgroundColor = "#be2c00";
     document.getElementById("con-box-three").style.color = "white";
     togri = true;
     setTimeout(function () { location.reload(1); }, 1500);
@@ -121,12 +121,12 @@ function three_sub(params) {
 }
 function four_sub(params) {
   if (4 == rendom_var && togri == false) {
-    document.getElementById("con-box-four").style.backgroundColor = "green";
+    document.getElementById("con-box-four").style.backgroundColor = "#00be49";
     document.getElementById("con-box-four").style.color = "white";
     togri = true;
     setTimeout(function () { location.reload(1); }, 1500);
   } else if(togri == false){
-    document.getElementById("con-box-four").style.backgroundColor = "red";
+    document.getElementById("con-box-four").style.backgroundColor = "#be2c00";
     document.getElementById("con-box-four").style.color = "white";
     togri = true;
     setTimeout(function () { location.reload(1); }, 1500);
