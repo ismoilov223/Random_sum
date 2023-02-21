@@ -1,5 +1,5 @@
 function numvr(params) {
-  return Math.ceil(Math.random() * 10);
+  return Math.ceil(Math.random() * 80);
 }
 function rendom_var(params) {
   return Math.ceil(Math.random() * 4);
