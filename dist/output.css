@@ -757,16 +757,12 @@ video {
   height: 100%;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-\[130px\] {
-  width: 130px;
-}
-
 .w-\[260px\] {
   width: 260px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-shrink {
@@ -819,6 +815,10 @@ video {
 
 .transform-none {
   transform: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .touch-auto {
@@ -1774,24 +1774,9 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[2\] {
-  padding-left: 2;
-  padding-right: 2;
-}
-
-.px-\[230px\] {
-  padding-left: 230px;
-  padding-right: 230px;
-}
-
-.px-\[130px\] {
-  padding-left: 130px;
-  padding-right: 130px;
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pr-2 {
@@ -2331,6 +2316,19 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
